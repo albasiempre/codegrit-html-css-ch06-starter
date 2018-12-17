@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: #e9ebee;
+}
+
+.card-wrapper {
+  width: 400px;
+  height: 300px;
+  padding: 12px;
+  border: 1px solid #ECE9E3;
+  background: #fff;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-upper {
+  display: flex;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.avatar-placeholder {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.content-placeholder.p1 {
+  width: 100%;
+}
+
+.content-placeholder.p2 {
+  width: 60%;
+}
+
+.content-placeholder.p3 {
+  width: 80%;
+}
+
+@keyframes gradient-transition {}
